@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/add"
+        android:title="Adicionar"
+        android:icon="@drawable/ic_action_add"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/edit"
+        android:title="Editar"
+        android:icon="@drawable/ic_action_edit"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/delete"
+        android:title="Apagar"
+        android:icon="@drawable/ic_action_delete"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/settings"
+        android:title="Configuracoes" />
+
+    <item android:id="@+id/about"
+        android:title="Sobre" />
+
+</menu>
